@@ -1,8 +1,10 @@
-h1,h2 {
+
+h1,h2,.nav-item {
     
     font-family: 'Rubik Mono One', sans-serif;
 }
-h3,h4, .date-large, .date-small, .button      {
+h3,h4, .date-large, .date-small,.button,.label,.body-regular,.body-bold    {
+
     font-family: 'Montserrat', sans-serif;
 
 
@@ -39,30 +41,30 @@ h4 {
 }
 
 .nav-item {
-    font-family: 'Rubik Mono One', sans-serif;
+
     font-size: 24px;
 }
 
 .button {
-    font-family: 'Montserrat', sans-serif;
+
     font-weight: bold;
     font-size: 20px;
 }
 
 .label {
-    font-family: 'Montserrat', sans-serif;
+
     font-style: italic;
     font-size: 20px;
 }
 
 .body-regular {
-    font-family: 'Montserrat', sans-serif;
+
     font-weight: normal;
     font-size: 20px;
 }
 
 .body-bold {
-    font-family: 'Montserrat', sans-serif;
+
     font-weight: bold;
     font-size: 20px;
 }
