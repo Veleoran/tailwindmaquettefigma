@@ -1,3 +1,6 @@
+:root {
+    --dark: #23221E; /* ou toute autre couleur que vous souhaitez utiliser */
+}
 .bouton-inscription {
     /* Box model */
     box-sizing: border-box;
@@ -34,3 +37,11 @@
     order: 0;
     flex-grow: 0;
 }
+.newsletter-text {
+    width: 425px; /* Converti depuis 21.25rem */
+    font-size: 25px; /* Converti depuis 1.25rem */
+    font-weight: 700; /* Bold */
+    line-height: 35px; /* Converti depuis 1.75rem */
+    color: #FCFCFC; /* Cream color */
+}
+
