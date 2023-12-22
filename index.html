@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intégration maquette Figma avec tailwindcss</title>
 
-    <link rel="stylesheet" href="">
-
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -22,8 +20,10 @@
           }
         }
       </script>  
+      
+      <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body>
+<body class="bg-dark w-[90rem] mx-auto my-0">
     <header>
             <img src="assets\icones\Property 1=cream.svg" alt="logo">
             <ul>
@@ -44,82 +44,83 @@
     </header>
 
     <main>
-        <section>
-            <h2>Titre section 3</h2>
-            <div>
-                <figure>
-                    <img src="" alt="">
-                    <figcaption> 
-                        <div>
+        <section class="text-snow" id="event"> 
+            <h2 class="text-center uppercase mb-[3.2rem]">Titre section 3</h2>
+            <div class="flex mx-auto my-0 justify-around">
+                <figure class="relative shadow-[4px_4px_0px_0px] shadow-snow">
+                    <img src="assets\images\metalhammer2024.png" alt="concert au metal hammer 2024">
+                    <figcaption class="absolute bottom-0 w-full flex justify-between items-center bg-dark bg-opacity-70 h-[8rem] border-solid border border-snow"> 
+                        <div class="ml-[1.5rem]">
                             <h3>Metal Hammer Paradise 2024</h3>
-                            <p>Du 31 juillet au 4 aout 2024</p>
+                            <p class="italic font-bold text-[0.9rem]">Du 31 juillet au 4 aout 2024</p>
                         </div>
-                        <a href=""><img src="" alt=""></a>
+                        <a href="#" class="mr-[1.5rem]"><img src="assets\icones\right-cream.svg" alt="icone droite couleur crème"></a>
                     </figcaption>
                 </figure>
-                <div>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption> 
-                            <div>
-                                <h3>Full Metal Cruise 2024</h3>
-                                <p>Du 13 juillet au 17 juillet 2024</p>
+                <div class="flex flex-wrap justify-around w-1/2 items-baseline">
+                    <figure class="relative mb-[2rem] shadow-[4px_4px_0px_0px] shadow-snow">
+                        <img src="assets\images\fullmetalcruise2024.png" alt="batterie du full metal cruise 2024">
+                        <figcaption class="absolute bottom-0 w-full flex justify-between items-center bg-dark bg-opacity-70 border-solid border border-snow h-[5rem]">
+                            <div class="ml-[1.5rem]">
+                                <h3 class="text-[19px]">Full Metal Cruise 2024</h3>
+                                <p class="italic font-bold text-[0.9rem]">Du 13 juillet au 17 juillet 2024</p>
                             </div>
-                            <a href=""><img src="" alt=""></a>
+                            <a href="#" class="mr-[1.5rem]"><img src="assets\icones\right-cream.svg" alt="icone droite couleur crème"></a>
                         </figcaption>
                     </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption> 
-                            <div>
-                                <h3>Rock en Seine 2024</h3>
-                                <p>Du 26 au 28 mai 2024</p>
+                    <figure class="relative mb-[2rem] shadow-[4px_4px_0px_0px] shadow-snow">
+                        <img src="assets/images/rockenseine2024.png" alt="guitariste du rock en seine 2024">
+                        <figcaption class="absolute bottom-0 w-full flex justify-between items-center bg-dark bg-opacity-70 border-solid border border-snow h-[5rem]"> 
+                            <div class="ml-[1.5rem]">
+                                <h3 class="text-[19px]">Rock en Seine 2024</h3>
+                                <p class="italic font-bold text-[0.9rem]">Du 26 au 28 mai 2024</p>
                             </div>
-                            <a href=""><img src="" alt=""></a>
+                            <a href="#" class="mr-[1.5rem]"><img src="assets\icones\right-cream.svg" alt="icone droite couleur crème"></a>
                         </figcaption>
                     </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption> 
-                            <div>
-                                <h3>Deatheast 2024</h3>
-                                <p>Du 15 au 18 juin 2024</p>
+                    <figure class="relative shadow-[4px_4px_0px_0px] shadow-snow">
+                        <img src="assets/images/deatheast2024.png" alt="public du deatheast 2024">
+                        <figcaption class="absolute bottom-0 w-full flex justify-between items-center bg-dark bg-opacity-70 border-solid border border-snow h-[5rem]"> 
+                            <div class="ml-[1.5rem]">
+                                <h3 class="text-[19px]">Deatheast 2024</h3>
+                                <p class="italic font-bold text-[0.9rem]">Du 15 au 18 juin 2024</p>
                             </div>
-                            <a href=""><img src="" alt=""></a>
+                            <a href="#" class="mr-[1.5rem]"><img src="assets\icones\right-cream.svg" alt="icone droite couleur crème"></a>
                         </figcaption>
                     </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption> 
-                            <div>
-                                <h3>Motocultor 2024</h3>
-                                <p>Du 17 au 20 aout 2024</p>
+                    <figure class="relative shadow-[4px_4px_0px_0px] shadow-snow">
+                        <img src="assets/images/motocultor2024.png" alt="guitariste du motocultor 2024">
+                        <figcaption class="absolute bottom-0 w-full flex justify-between items-center bg-dark bg-opacity-70 border-solid border border-snow h-[5rem]"> 
+                            <div class="ml-[1.5rem]">
+                                <h3 class="text-[19px]">Motocultor 2024</h3>
+                                <p class="italic font-bold text-[0.9rem]">Du 17 au 20 aout 2024</p>
                             </div>
-                            <a href=""><img src="" alt=""></a>
+                            <a href="#" class="mr-[1.5rem]"><img src="assets\icones\right-cream.svg" alt="icone droite couleur crème"></a>
                         </figcaption>
                     </figure>
                 </div>
             </div>
-            <a href=""><img src="" alt=""></a>
+            <div class="w-full flex justify-center"><a href="#" class="px-[2.2rem] py-[0.7rem] bg-cream mt-[3.2rem] mb-[4.6rem] inline-block mx-auto w-[20rem] flex justify-between shadow-[4px_4px_0px_0px] shadow-snow text-dark items-center">Voir les évènements <img src="assets/icones/right_dark.svg" alt="chevron droit noir" class="inline"></a></div>
         </section>
-        <section>
-            <h2>Nos disquaires partenaires
-            </h2>
-            <div>
-                <img src="" alt="">
-                <figure>
-                    <img src="" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <img src="" alt="">
+        <section class="text-dark bg-leaves pt-[5rem] pb-[4.5rem] text-center" id="partners">
+            <h2 class="mb-[4.2rem] uppercase">Nos disquaires partenaires</h2>
+            <div class="flex justify-around">
+                <img src="assets/icones/left_dark.svg" alt="">
+                <div class="flex justify-around w-[65rem] overflow-hidden">
+                    <figure class="w-[20rem] shrink-0">
+                        <img src="assets/images/disquaire_1.png" alt="premier disquaire" class="w-[20rem] rounded-[20rem]">
+                        <figcaption class="mt-[1.3rem] font-bold text-[1.2rem]">Orléan</figcaption>
+                    </figure>
+                    <figure class="w-[20rem] shrink-0">
+                        <img src="assets/images/disquaire_2.png" alt="second disquaire" class="w-[20rem] rounded-[20rem]">
+                        <figcaption class="mt-[1.3rem] font-bold text-[1.2rem]">Orléan</figcaption>
+                    </figure>
+                    <figure class="w-[20rem] shrink-0">
+                        <img src="assets/images/disquaire_3.png" alt="troisième disquaire" class="w-[20rem] rounded-[20rem]">
+                        <figcaption class="mt-[1.3rem] font-bold text-[1.2rem]">Orléan</figcaption>
+                    </figure>
+                </div>
+                <img src="assets/icones/right_dark.svg" alt="chevron droite couleur noir">
             </div>
         </section>
     </main>
