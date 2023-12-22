@@ -49,36 +49,36 @@ header div{
 }
 
 
-h1,h2,.nav-item {
+header h1, header h2, main h2, footer h2, .nav-item {
     
     font-family: 'Rubik Mono One', sans-serif;
 }
 
-h3,h4, .date-large, .date-small,.button,.label,.body-regular,.body-bold    {
+header h3, main h3, footer h3, header h4, main h4, footer h4, .date-large, .date-small, .button, .label, .body-regular, .body-bold    {
 
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
+header h1 {
     font-size: 90px;
 }
 
-h2 {
+header h2, main h2, footer h2 {
     font-size: 38px;
 }
 
-h3 {
+header h3, main h3, footer h3 {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 30px; 
 }
 
 .date-large {
     font-weight: bold;
     font-style: italic;
-    font-size: 18px;
+    font-size: 18px; 
 }
 
-h4 {
+header h4, main h4, footer h4 {
     font-weight: bold;
     font-size: 19px;
 }
@@ -116,4 +116,9 @@ h4 {
 
     font-weight: bold;
     font-size: 20px;
+}
+
+header a, main a, footer a{
+    font-size: 1.2rem;
+    font-weight: 700;
 }

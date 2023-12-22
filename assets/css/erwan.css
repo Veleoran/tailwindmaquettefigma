@@ -1,0 +1,47 @@
+:root {
+    --dark: #23221E; /* ou toute autre couleur que vous souhaitez utiliser */
+}
+.bouton-inscription {
+    /* Box model */
+    box-sizing: border-box;
+    border: 1px solid #1A0000; /* wood */
+    background: #ECEBBD; /* cream */
+    box-shadow: 4px 4px 0px #FFFFFF; /* ombre blanche */
+
+    /* Positioning */
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 225px;
+    height: 60px;
+
+    /* Flexbox */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    /* Typography */
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #23221E; /* dark */
+    text-align: center;
+
+    /* Misc */
+    padding: 18px 45px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.newsletter-text {
+    width: 425px; /* Converti depuis 21.25rem */
+    font-size: 25px; /* Converti depuis 1.25rem */
+    font-weight: 700; /* Bold */
+    line-height: 35px; /* Converti depuis 1.75rem */
+    color: #FCFCFC; /* Cream color */
+}
+
