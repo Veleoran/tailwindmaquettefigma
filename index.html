@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Intégration maquette Figma avec tailwindcss</title>\
+
+    <title>Intégration maquette Figma avec tailwindcss</title>
+
+    <link rel="stylesheet" href="assets\css\main.css">
+
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -27,23 +30,28 @@
 </head>
 <body class="bg-dark w-[90rem] mx-auto my-0">
     <header>
-            <img src="" alt="logo">
-            <ul>
+        <nav>
+            <ul class="flex space-x-14">
+            <img src="assets\icones\Property 1=cream.svg" alt="logo">
+            
                 <li><a href="">Accueil</a></li>
-                <li><a href="">Événemnts</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="">Evenements</a></li>
+                <li><a href="">Contacts</a></li>
+                <img src="assets\icones\icones=panier, Color=cream.svg" alt="basket">
+                <img src="assets\icones\icones=profil, Color=cream.svg" alt="user">
             </ul>
-            <div>
-                <img src="" alt="basket">
-                <img src="" alt="user">
-            </div>
         </nav>
-        <div>
-            <h1>Une animation de texte ici</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam dolorum doloremque, numquam magnam, reiciendis odit, tenetur perspiciatis ut alias perferendis voluptas? Eveniet, dolor optio est officiis delectus ratione reiciendis saepe!</p>
-            <a href="">Je m'inscris</a>
-        </div>
-    </header>
+        <div class="h-80 p-2 size-full ">
+            <h1 class="uppercase text-3xl flex space-y-3 font-bold">Une animation de<br/>
+                    texte ici<br/>
+            </h1>         
+            <p class="text-white mb-16 text-small"></p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br />
+                 Ipsam dolorum doloremque, numquam magnam, reiciendis odit, tenetur perspiciatis<br />
+                  ut alias perferendis voluptas? Eveniet, dolor optio est officiis delectus<br />
+                   ratione reiciendis saepe!<br/>
+            </p>
+            <button class="bg-cream py-2 px-4 rounded-none text-black mb-15 shadow-[4px_4px_0px_0px] shadow-snow">Je m'inscris</button>   
+        </header>
 
     <main>
         <section class="text-snow" id="event"> 
