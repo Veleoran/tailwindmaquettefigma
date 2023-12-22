@@ -16,15 +16,14 @@ let btnPrev = document.querySelector('#btnPrev');
 let btnNext = document.querySelector('#btnNext');
 let delta = 0;
 let counter = 0;
-let step = 340;
+let step = 346;
 let slider = document.querySelector('#slider');
-let containerWidth = document.querySelector('.articles-ateliers-container').offsetWidth;
+let containerWidth = document.querySelector('#sliderContainer').offsetWidth;
 let nbSlide = slider.children.length;
 let divid = Math.round(containerWidth / step);
+console.log(divid);
 
-if (!btnPrev || !btnNext) return;
-
-btnPrev.addEventListener('click', (e) => {
+btnPrev.addEventListener('click', () => {
     if (counter > 0) {
         delta = delta + step;
         slider.style.transform = `translate(${delta}px, 0)`;
@@ -32,8 +31,8 @@ btnPrev.addEventListener('click', (e) => {
     }
 });
 
-btnNext.addEventListener('click', (e) => {
-    if (counter < (nbSlide - (divid + 4))) {
+btnNext.addEventListener('click', () => {
+    if (counter < (nbSlide - (divid))) {
         delta = delta - step;
         slider.style.transform = `translate(${delta}px,0)`;
         counter++;
