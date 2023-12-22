@@ -1,5 +1,4 @@
 header nav{
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,38 +7,35 @@ header nav{
     background-size: cover;
     color: rgb(11, 8, 1); 
     width: 300px;
-    }
-
-    header nav ul {
-        display: flex;
-        list-style-type: none;
-        justify-content: space-between;
-        align-items: center;
-        width: 300px;
-
-
 }
 
 header nav ul {
-        color: rgb(205, 195, 170);
-        text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
 }
 
-
-header div{
+header nav ul {
     color: rgb(205, 195, 170);
     text-decoration: none;
 }
 
-header div{
+
+.bgImage{
+    color: rgb(205, 195, 170);
+    text-decoration: none;
     background-image: url('../images/pexels-edward.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(205, 195, 170); 
 }
+
 .bg-cream {
     background-color: #ECEBBD; 
 }
+
 .text-small {
     font-size: 6px; 
 }

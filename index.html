@@ -30,32 +30,34 @@
 </head>
 <body class="bg-dark w-[90rem] mx-auto my-0">
     <header>
-        <nav>
-            <ul class="flex space-x-14">
-            <img src="assets\icones\Property 1=cream.svg" alt="logo">
-            
+        <nav class="flex justify-between w-full">
+            <a href="#"><img src="assets\icones\Property 1=cream.svg" alt="logo"></a>
+            <ul class="flex justify-between w-[588px]">
                 <li><a href="">Accueil</a></li>
                 <li><a href="">Evenements</a></li>
                 <li><a href="">Contacts</a></li>
-                <img src="assets\icones\icones=panier, Color=cream.svg" alt="basket">
-                <img src="assets\icones\icones=profil, Color=cream.svg" alt="user">
             </ul>
+            <div class="flex justify-between w-[183px]">
+                <a href="#"><img src="assets/icones/basket.svg" alt="basket"></a>
+                <a href="#"><img src="assets\icones\icones=profil, Color=cream.svg" alt="user"></a>
+            </div>
         </nav>
-        <div class="h-80 p-2 size-full ">
-            <h1 class="uppercase text-3xl flex space-y-3 font-bold">Une animation de<br/>
+        <div class="h-[788px] p-2 size-full bgImage">
+            <h1 class="uppercase flex space-y-3 font-bold mt-[194px] ml-[132px] text-[74px]">Une animation de<br/>
                     texte ici<br/>
             </h1>         
-            <p class="text-white mb-16 text-small"></p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br />
+            <p class="text-white text-[20px] ml-[132px] mt-[30px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br />
                  Ipsam dolorum doloremque, numquam magnam, reiciendis odit, tenetur perspiciatis<br />
                   ut alias perferendis voluptas? Eveniet, dolor optio est officiis delectus<br />
-                   ratione reiciendis saepe!<br/>
+                   ratione reiciendis saepe!<br/></p>
             </p>
-            <button class="bg-cream py-2 px-4 rounded-none text-black mb-15 shadow-[4px_4px_0px_0px] shadow-snow">Je m'inscris</button>   
-        </header>
+            <button class="bg-cream py-[18px] px-[45px] w-[284px] font-bold text-[20px] rounded-none text-black mt-[49px] shadow-[4px_4px_0px_0px] shadow-snow ml-[132px]">Je m'inscris</button>   
+        </div>
+    </header>
 
     <main>
         <section class="text-snow" id="event"> 
-            <h2 class="text-center uppercase mb-[3.2rem]">Titre section 3</h2>
+            <h2 class="text-center uppercase mb-[3.2rem] mt-[57px]">Titre section 3</h2>
             <div class="flex mx-auto my-0 justify-around">
                 <figure class="relative shadow-[4px_4px_0px_0px] shadow-snow">
                     <img src="assets\images\metalhammer2024.png" alt="concert au metal hammer 2024">
@@ -116,18 +118,22 @@
             <h2 class="mb-[4.2rem] uppercase">Nos disquaires partenaires</h2>
             <div class="flex justify-around">
                 <img src="assets/icones/left_dark.svg" alt="">
-                <div class="flex justify-around w-[65rem] overflow-hidden">
-                    <figure class="w-[20rem] shrink-0">
+                <div class="flex justify-start w-[65rem] overflow-hidden">
+                    <figure class="w-[20rem] shrink-0 mx-[13px]">
                         <img src="assets/images/disquaire_1.png" alt="premier disquaire" class="w-[20rem] rounded-[20rem]">
-                        <figcaption class="mt-[1.3rem] font-bold text-[1.2rem]">Orléan</figcaption>
+                        <figcaption class="mt-[1.3rem] font-bold text-[1.2rem]">Orléans</figcaption>
                     </figure>
-                    <figure class="w-[20rem] shrink-0">
+                    <figure class="w-[20rem] shrink-0 mx-[13px]">
                         <img src="assets/images/disquaire_2.png" alt="second disquaire" class="w-[20rem] rounded-[20rem]">
-                        <figcaption class="mt-[1.3rem] font-bold text-[1.2rem]">Orléan</figcaption>
+                        <figcaption class="mt-[1.3rem] font-bold text-[1.2rem]">Orléans</figcaption>
                     </figure>
-                    <figure class="w-[20rem] shrink-0">
+                    <figure class="w-[20rem] shrink-0 mx-[13px]">
                         <img src="assets/images/disquaire_3.png" alt="troisième disquaire" class="w-[20rem] rounded-[20rem]">
-                        <figcaption class="mt-[1.3rem] font-bold text-[1.2rem]">Orléan</figcaption>
+                        <figcaption class="mt-[1.3rem] font-bold text-[1.2rem]">Orléans</figcaption>
+                    </figure>
+                    <figure class="w-[20rem] shrink-0 mx-[13px]">
+                        <img src="assets/images/disquaire_2.png" alt="second disquaire" class="w-[20rem] rounded-[20rem]">
+                        <figcaption class="mt-[1.3rem] font-bold text-[1.2rem]">Orléans</figcaption>
                     </figure>
                 </div>
                 <img src="assets/icones/right_dark.svg" alt="chevron droite couleur noir">
